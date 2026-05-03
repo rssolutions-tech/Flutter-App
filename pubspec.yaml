@@ -1,0 +1,46 @@
+name: elearning_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.1.0
+
+  # Firebase (all compatible)
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+  cloud_firestore: ^5.4.4
+  firebase_storage: ^12.4.10
+
+  # Media
+  image_picker: ^1.1.2
+  file_picker: ^8.0.7
+
+  # Utils
+  url_launcher: ^6.3.0
+  fl_chart: ^0.69.0
+  crypto: ^3.0.3
+  chewie: ^1.8.5
+  video_player: ^2.9.2
+  syncfusion_flutter_pdfviewer: ^26.2.7
+  youtube_player_flutter: ^9.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
